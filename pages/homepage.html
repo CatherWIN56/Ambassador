@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../style/stylesheet.css"/>
+    <script src="https://kit.fontawesome.com/e74f0477d0.js" crossorigin="anonymous"></script>
+    <title>Ambassador</title>
+</head>
+
+<!--    Header - This is the same on every Page     -->
+<header>
+    <div class="nav_wrapper">
+        <!--        Top Navigation Bar that only has the logo in it     -->
+        <div class="top_nav">
+            <div class="left_nav">
+                <div class="logo"><a href="homepage.html"><p>Ambassador</p></a></div>
+            </div>
+        </div>
+        <!--        The Navigation Bar that has the page links in it    -->
+        <div class="bottom_nav">
+            <ul>
+                <li><a href="take-n-bake.html">Take N' Bake</a></li>
+                <li><a href="menu.html">Food Menu</a></li>
+                <li><a href="drinkmenu.html">Drink Menu</a> </li>
+                <li><a href="history.html">Our History</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+<!--    Body of the Page    -->
+<body>
+<!--    Eye grabber picture and information -->
+<div class="title">
+    <h1>WELCOME TO </h1>
+    <h1>AMBASSADOR</h1>
+    <p>Italian-American, Pub Grub</p>
+</div>
+<div class="home-container">
+    <img class="dining-img" src="../pics/dining-room.jpg">
+</div>
+
+<!--    Yelp Reviews using an external widget   -->
+<div class="home-info">
+    <br><br><br>
+    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+    <div class="elfsight-app-591481f4-fd55-4850-8a3e-34644dbcbb44" data-elfsight-app-lazy></div>
+</div>
+</body>
+
+<!--    FOOTER      -->
+<div class="footer">
+    <!--    Links to History Page, Facebook, and Instagram - FB/Instagram open in a new tab -->
+    <div class="col-1">
+        <h3>USEFUL LINKS</h3>
+        <!--        Links to History Page   -->
+        <a href="history.html">About</a>
+        <!--        Links to Contact Page-->
+        <a href="contact.html">Contact Us</a>
+        <div class="social-icons">
+            <!--            Facebook - Opens in new tab     -->
+            <a href="http://www.facebook.com/ambohoughton" target="_blank">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <!--            Instagram - Opens in a new tab  -->
+            <a href="http://instagram.com/theambassadorhoughton" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+        </div>
+    </div>
+    <!--    Rewards Program  - Not Connected to a database, this is just for show   -->
+    <div class="col-2">
+        <h3>JOIN OUR REWARDS PROGRAM</h3>
+        <form>
+            <input type="email" placeholder="Your Email Address" required>
+            <br>
+            <button type="submit">REGISTER</button>
+        </form>
+    </div>
+
+    <!--    Hours that Ambassador is open-->
+    <div class="col-3">
+        <h3>OUR HOURS</h3>
+        <p>
+            <b>Monday - Thursday</b>  11am - 10 pm <br><br>
+            <b>Friday & Saturday</b>  11am - 11pm <br><br>
+            <b>Sunday</b>  4 pm - 10 pm
+        </p>
+    </div>
+</div>
+</html>

@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../style/stylesheet.css"/>
+    <script src="https://kit.fontawesome.com/e74f0477d0.js" crossorigin="anonymous"></script>
+    <script src="../js/script.js"></script>
+    <title>Ambassador - Menu</title>
+</head>
+
+<!--    Header - This is the same on every Page     -->
+<header>
+    <div class="nav_wrapper">
+        <!--        Top Navigation Bar that only has the logo in it     -->
+        <div class="top_nav">
+            <div class="left_nav">
+                <div class="logo"><a href="homepage.html"><p>Ambassador</p></a></div>
+            </div>
+        </div>
+        <!--        The Navigation Bar that has the page links in it    -->
+        <div class="bottom_nav">
+            <ul>
+                <li><a href="take-n-bake.html">Take N' Bake</a></li>
+                <li><a href="menu.html">Food Menu</a></li>
+                <li><a href="drinkmenu.html">Drink Menu</a> </li>
+                <li><a href="history.html">Our History</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+<!--    Body of the Webpage     -->
+<body>
+<!--    Back to Top Button -->
+<button onclick="topFunction()" id="backToTopBtn" title="Go to top">Back to Top</button>
+
+<!--    Menu Title  -->
+<div class="menu-title">
+    <h4>Food Menu</h4>
+</div>
+<!--    Pizza DropDown Menu     -->
+<button id="dropdown-btn1">PIZZA</button>
+<div id="firstDiv" style="display:none;">
+<!--    Table to hold all the Pizza Information     -->
+<div class="menu-items">
+    <table class="table-menu">
+        <tr>
+            <td>
+                <i><b>Note: All of our menu items are available for takeout</b></i>
+                <br>
+            </td>
+        </tr>
+        <tr>
+            <th>TOSTADA <h5>$12/$14/$17</h5></th>
+        </tr>
+        <tr>
+            <td>Award-winning tostada beef layered over house-made pizza sauce
+                and baked with Wisconsin white colby cheese. Topped with fresh
+                shredded lettuce, tomatoes, Wisconsin cheddar cheese and tostada
+                hot sauce.</td>
+        </tr>
+
+        <tr>
+            <th>B.L.T. PIZZA<h5>$12/$15/$18</h5></th>
+        </tr>
+        <tr>
+            <td>A generous amount of smoked bacon layered over salad dressing,
+                baked with Wisconsin white colby cheese. Topped with fresh shredded
+                lettuce and tomatoes.</td>
+        </tr>
+
+        <tr>
+            <th>VEGETARIAN PIZZA<h5>$12/$14/$17</h5></th>
+        </tr>
+        <tr>
+            <td>Tomatoes, zucchini, carrots, onions, broccoli, Wisconsin cheddar &
+                white colby cheeses, and garlic olive oil, layered over house-made pizza sauce.</td>
+        </tr>
+
+        <tr>
+            <th>GREEK<h5>$12/$15/$19</h5></th>
+        </tr>
+        <tr>
+            <td>Fresh spinach, tomatoes, black & green olives, feta cheese,
+                oregano and garlic basil olive oil layered over Wisconsin white
+                colby cheese.</td>
+        </tr>
+
+        <tr>
+            <th>GARLIC CHICKEN PIZZA<h5>$14/$16/$19</h5></th>
+        </tr>
+        <tr>
+            <td>Tender chopped chicken breast, broccoli, basil, oregano and garlic olive oil,
+                layered over Wisconsin white colby cheese.</td>
+        </tr>
+
+        <tr>
+            <th>
+                LOBSTER PIZZA<h5>$15/$19/$23</h5>
+            </th>
+        </tr>
+        <tr>
+            <td>A generous amount of Lobster Sensation, tomatoes, parsley and garlic olive oil
+                layered over Wisconsin white colby cheese. Served with lemon wedges.</td>
+        </tr>
+
+        <tr>
+            <th>
+                PESTO PIZZA<h5>$11/$14/$17</h5>
+            </th>
+        </tr>
+        <tr>
+            <td>A generous layer of basil pesto topped with Wisconsin colby cheese, tomatoes,
+                and feta cheese.</td>
+        </tr>
+
+        <tr>
+            <th>QUESADILLA PIZZA<h5>$14/$16/$19</h5></th>
+        </tr>
+        <tr>
+            <td>Tender chopped chicken breast, green peppers, onions, bacon and Wisconsin
+                cheddar cheese layered over Wisconsin white colby cheese and our house-made
+                spicy aioli sauce.</td>
+        </tr>
+
+        <tr>
+            <th>BBQ CHICKEN PIZZA<h5>$14/$16/$19</h5></th>
+        </tr>
+        <tr>
+            <td>Tender chopped chicken breast, banana peppers, sliced red onion, and
+                Wisconsin white colby cheese layered over tangy barbeque sauce, topped
+                with Wisconsin cheddar cheese.</td>
+        </tr>
+
+        <tr>
+            <th>BUILD YOUR OWN AMBASSADOR PIZZA<h5>$1-$5 per Topping</h5></th>
+        </tr>
+        <tr>
+            <td class="td-details"><br>Add your favorite ingredients listed below to our
+                basic cheese pizza:</td>
+        </tr>
+        <tr>
+            <td>Sausage
+                <br>
+                Pepperoni
+                <br>
+                Ham
+                <br>
+                Smoked Bacon
+                <br>
+                Anchovies
+                <br>
+                Shrimp
+                <br>
+                Marinated Chicken
+                <br>
+                Spinach
+                <br>
+                Fresh Mushrooms
+                <br>
+                Broccoli
+                <br>
+                Zucchini
+                <br>
+                Marinated Cherry Tomatoes
+                <br>
+                Pineapple
+                <br>
+                Diced Jalapenos
+                <br>
+                Black Olives
+                <br>
+                Green Olives
+                <br>
+                Diced Tomatoes
+                <br>
+                Green Pepper
+                <br>
+                Onions
+                <br>
+                Chopped Garlic
+                <br>
+                Feta Cheese
+                <br>
+                Banana Peppers
+                <br>
+                Garlic Oil</td>
+        </tr>
+        <tr>
+            <td class="td-italic">Gluten free crust available for medium-size pizzas.</td>
+        </tr>
+    </table>
+</div>
+    <!--    Pasta DropDown Menu     -->
+</div>
+<button id="dropdown-btn2">PASTA</button>
+<div id="secondDiv" style="display:none;">
+    <div class="menu-items">
+        <table class="table-menu">
+            <tr>
+                <td>
+                    <i><b>Note: All of our menu items are available for takeout</b></i>
+                    <br>
+                </td>
+            </tr>
+            <tr>
+                <th>SPAGHETTI<h5>Sm. $6/Lg. $8 </h5> </th>
+
+            </tr>
+            <tr>
+                <td>Slow-cooked house-made Italian meat sauce served over
+                    spaghetti, topped with grated Parmesan and served with
+                    fresh baked garlic toast. Also available with Italian
+                    meatballs. (Meatless sauce also available upon request
+                    .)</td>
+            </tr>
+            <tr>
+                <th>LASAGNA<h5>$11</h5></th>
+            </tr>
+            <tr>
+                <td>Herbed ricotta cheese & house-made Italian meat sauce,
+                    layered with Wisconsin cheddar & Wisconsin white colby
+                    cheese. Served with fresh baked garlic toast. (Allow
+                    15 minutes)</td>
+            </tr>
+            <tr>
+                <th>
+                    RAVIOLI<h5>Sm. (3) $4/Lg. (5) $8</h5>
+                </th>
+            </tr>
+            <tr>
+                <td>Italian beef, caramelized onions & herb ricotta
+                    cheese stuffed ravioli, topped with our house-made
+                    Italian meat sauce and grated Parmesan. Served with
+                    fresh baked garlic toast.</td>
+            </tr>
+            <tr>
+                <th>
+                    PESTO PASTA<h5>$8</h5>
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    Spaghetti tossed with pesto sauce, fresh spinach and
+                    marinated cherry tomatoes. Served with fresh baked
+                    garlic toast.
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    SPECIALTY PASTA<h5>$6</h5>
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    Spaghetti mixed with a fresh olive oil pan sauce of
+                    garlic, basil, marinated cherry tomatoes and Parmesan
+                    cheese. Served with fresh baked garlic toast.
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <i>Additions to our Specialty Pasta or Pesto Pasta:</i>
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    Sliced chicken breast<h5>$2</h5>
+                    <br>
+                    Alaskan salmon<h5>$4</h5>
+                    <br>
+                    Lobster sensation<h5>$5</h5>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+<!--    Salad DropDown Menu     -->
+<button id="dropdown-btn3">SALADS</button>
+<div id="thirdDiv" style="display:none;">
+    <div class="menu-items">
+        <table class="table-menu">
+            <tr>
+                <td>
+                    <i><b>Note: All of our menu items are available for takeout</b></i>
+                    <br>
+                </td>
+            </tr>
+
+            <tr>
+                <th>HOUSE SALAD<h5>$4</h5></th>
+
+            </tr>
+            <tr>
+                <td>Iceberg lettuce, tomatoes,
+                    onions, Wisconsin cheddar
+                    cheese and croutons.</td>
+            </tr>
+            <tr>
+                <th>SIDE CAESAR SALAD<h5>$5</h5></th>
+            </tr>
+            <tr>
+                <td>Romaine lettuce, croutons, onions and tomatoes, topped with
+                    shredded Parmesan cheese & Caesar dressing. </td>
+            </tr>
+            <tr>
+                <th>CAESAR SALAD<h5>$7</h5></th>
+            </tr>
+            <tr>
+                <td>Romaine lettuce, croutons, onions and tomatoes, topped with
+                    shredded Parmesan cheese & Caesar dressing. Served with
+                    fresh baked garlic toast. (Also available topped with
+                    garlic herb grilled chicken breast or Alaskan salmon)</td>
+            </tr>
+            <tr>
+                <th>CHEF SALAD<h5>$8</h5></th>
+            </tr>
+            <tr>
+                <td>
+                    Iceberg lettuce, lean premium deli ham, tender sliced
+                    turkey, tomatoes, onions, hard-boiled egg & Wisconsin
+                    cheddar cheese. Served with fresh baked garlic toast
+                    & choice of dressing.
+                </td>
+            </tr>
+            <tr>
+                <th>GARDEN SALAD <i>(Vegetarian)</i><h5>$7</h5></th>
+            </tr>
+            <tr>
+                <td>
+                    Iceberg lettuce, tomatoes, onions, green pepper,
+                    black olives, hard-boiled egg and Wisconsin cheddar
+                    cheese. Served with fresh baked garlic toast and
+                    choice of dressing.
+                </td>
+            </tr>
+            <tr>
+                <th>TACO SALAD<h5>$8</h5></th>
+            </tr>
+            <tr>
+                <td>
+                    Iceberg Lettuce topped with our specialty house-made
+                    tostada beef, Wisconsin cheddar cheese, tomatoes, black
+                    olives and corn chips. Served with tostada hot sauce,
+                    sour cream and salsa.
+                </td>
+            </tr>
+            <tr>
+                <th>ITALIAN BEEF VINAIGRETTE<h5>$8</h5></th>
+            </tr>
+            <tr>
+                <td>
+                    Iceberg lettuce with thinly shaved tender roast beef,
+                    Italian green beans, onions, tomatoes and black olives.
+                    Served with fresh baked garlic toast & Italian dressing.
+                </td>
+            </tr>
+            <tr>
+                <th>ITALIAN TUNA SALAD<h5>$8</h5></th>
+            </tr>
+            <tr>
+                <td>
+                    Iceberg lettuce with chunks or light tuna, onions,
+                    tomatoes, green beans, yellow wax beans & kidney beans.
+                    Served with fresh baked garlic toast & Italian dressing.
+                </td>
+            </tr>
+            <tr>
+                <th>GREEK SALAD<h5>$8</h5></th>
+            </tr>
+            <tr>
+                <td>
+                    Iceberg lettuce with onions, tomatoes, black olives,
+                    green peppers, marinated cucumbers and crumbled feta
+                    cheese. Served with fresh baked garlic toast & Italian
+                    dressing.
+                </td>
+            </tr>
+            <tr>
+                <th>AVAILABLE DRESSINGS<br><i>(served on the side)</i></th>
+            </tr>
+            <tr>
+                <td>
+                    House-made Ranch
+                    <br>
+                    French
+                    <br>
+                    Italian
+                    <br>
+                    Caesar
+                    <br>
+                    Bleu Cheese
+                    <br>
+                    Thousand Island
+                    <br>
+                    Balsamic Vinegar
+                    <br>
+                    Red Wine Vinegar & Oil
+                    <br>
+                    FF Raspberry Vinaigrette
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <i><b>
+                    Note: Salads can be made with fresh baby
+                    spinach or Romaine lettuce for an additional
+                    charge.</b></i>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+<!--    Sandwiches DropDown Menu     -->
+<button id="dropdown-btn4">SANDWICHES</button>
+<div id="fourthDiv" style="display:none;">
+    <div class="menu-items">
+        <table class="table-menu">
+            <tr>
+                <td>
+                    <i><b>Note: All of our menu items are available for takeout</b></i>
+                    <br>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <br>
+                    <h2>AMBASSADOR SUBMARINE SANDWICHES</h2>
+                    <br>
+                    <br>
+                </th>
+            </tr>
+            <tr>
+                <th>TRADITIONAL<h5>8 in. $6 / 16 in. $12 / 24 in. $18</h5></th>
+
+            </tr>
+            <tr>
+                <td>Warm crusty Italian bread with Cotto salami and bologna,
+                    sliced Wisconsin white colby cheese, tomatoes, onions,
+                    lettuce and salad dressing. (8”, 16” or 24”)</td>
+            </tr>
+            <tr>
+                <th>THREE CHEESE<h5>8 in. $6 / 16 in. $12 / 24 in. $18</h5></th>
+            </tr>
+            <tr>
+                <td>Warm crusty Italian bread with sliced Wisconsin cheddar,
+                    white colby and Swiss, tomatoes, onions, lettuce and
+                    salad dressing. (8”, 16” or 24”)</td>
+            </tr>
+            <tr>
+                <th>
+                    <br>
+                    <br>
+                    <h2>SPECIALTY SANDWICHES</h2>
+                    <br>
+                    <br>
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <i><b>Served with kettle cooked chips and a pickle.
+                        Sandwiches are served on our warm crusty
+                        Italian bread. (Split-top wheat available
+                        upon request.)</b></i>
+                </td>
+            </tr>
+            <tr>
+                <th>REUBEN<h5>$7</h5></th>
+            </tr>
+            <tr>
+                <td>Hot corned beef, creamy Swiss cheese,
+                    zesty dressing with spiced sauerkraut.</td>
+            </tr>
+            <tr>
+                <th>YODELER<h5>$7</h5></th>
+            </tr>
+            <tr>
+                <td>
+                    Hot corned beef, shredded lettuce and
+                    sliced tomatoes topped with zesty dressing.
+                </td>
+            </tr>
+            <tr>
+                <th>ROAST BEEF<h5>$7</h5></th>
+            </tr>
+            <tr>
+                <td>
+                    Tender roast beef served with a side of au jus.
+                </td>
+            </tr>
+            <tr>
+                <th>YORKSHIRE BEEF<h5>$7</h5></th>
+            </tr>
+            <tr>
+                <td>
+                    Tender roast beef with fresh sliced Wisconsin
+                    cheddar cheese and a side of au jus.
+                </td>
+            </tr>
+            <tr>
+                <th>RACHEL<h5>$7</h5></th>
+            </tr>
+            <tr>
+                <td>
+                    Tender roast beef, creamy swiss cheese and spiced sauerkraut.
+                </td>
+            </tr>
+            <tr>
+                <th>HAM & SWISS<h5>$7</h5></th>
+            </tr>
+            <tr>
+                <td>
+                    Sliced premium lean deli ham, creamy swiss cheese, shredded
+                    lettuce and salad dressing.
+                </td>
+            </tr>
+            <tr>
+                <th>CUDIGHI<h5>$7</h5></th>
+            </tr>
+            <tr>
+                <td>
+                    A classic Upper Peninsula version of this traditional Italian
+                    sausage. House-made for over 50 years! Served with house-made
+                    pizza sauce & Wisconsin white colby, or with mustard & onions.
+                </td>
+            </tr>
+            <tr>
+                <th>ITALIAN MEATBALL<h5>$7</h5></th>
+            </tr>
+            <tr>
+                <td>
+                    Six large savory meatballs stewed in an Italian tomato sauce,
+                    topped with Wisconsin white colby cheese.
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    TURKEY<h5>$7</h5>
+                </th>
+            </tr>
+            <tr>
+                <td>Tender sliced whole turkey breast, shredded lettuce and
+                    salad dressing.</td>
+            </tr>
+            <tr>
+                <th>TURKEY DELUXE<h5>$7</h5></th>
+            </tr>
+            <tr>
+                <td>Tender sliced whole turkey breast, shredded lettuce,
+                    tomatoes and Thousand Island dressing.</td>
+            </tr>
+            <tr>
+                <th>MEATLOAF<h5>$6</h5></th>
+            </tr>
+            <tr>
+                <td>House-made with lean ground beef. Served hot or
+                    cold with lettuce and salad dressing.</td>
+            </tr>
+            <tr>
+                <th>AMBO MAC<h5>$7</h5></th>
+            </tr>
+            <tr>
+                <td>Our famous house-made meatloaf warmed in au jus
+                    and served with lettuce, tomatoes, onions,
+                    Wisconsin cheddar cheese and Thousand Island
+                    dressing.</td>
+            </tr>
+            <tr>
+                <th>TUNA<h5>$7</h5></th>
+            </tr>
+            <tr>
+                <td>Fresh made salad of celery, onion & tuna with
+                    shredded lettuce and salad dressing.</td>
+            </tr>
+            <tr>
+                <th>TUNA SUPREME<h5>$7</h5></th>
+            </tr>
+            <tr>
+                <td>Fresh made salad of celery, onion & tuna with
+                    shredded lettuce, tomatoes, sliced Wisconsin
+                    cheddar cheese and Thousand Island dressing.</td>
+            </tr>
+            <tr>
+                <th>AMBASSADOR CLUB<h5>$7</h5></th>
+            </tr>
+            <tr>
+                <td>Tender sliced turkey breast, lean ham, Wisconsin
+                    cheddar cheese, tomatoes, lettuce and salad dressing.</td>
+            </tr>
+            <tr>
+                <th>PESTO CHICKEN SANDWICH<h5>$8</h5></th>
+            </tr>
+            <tr>
+                <td>Tender sliced chicken breast and tomatoes baked in
+                    fresh garlic olive oil, topped with pesto and romaine
+                    lettuce.</td>
+            </tr>
+            <tr>
+                <th>CHICKEN SANDWICH<h5>$8</h5></th>
+            </tr>
+            <tr>
+                <td>Tender sliced chicken breast baked in garlic basil
+                    olive oil, topped with lettuce, tomatoes and salad
+                    dressing.</td>
+            </tr>
+            <tr>
+                <th>MEDITERRANEAN CHICKEN<h5>$8</h5></th>
+            </tr>
+            <tr>
+                <td>Tender sliced chicken breast with fresh spinach,
+                    tomatoes and feta cheese. (Substitute Alaskan
+                    salmon for an additional charge of $2)</td>
+            </tr>
+
+        </table>
+    </div>
+</div>
+<!--    Appetizers & Tostada Specialties DropDown Menu     -->
+<button id="dropdown-btn5">APPETIZERS & TOSTADA SPECIALTIES</button>
+<div id="fifthDiv" style="display:none;">
+    <div class="menu-items">
+        <table class="table-menu">
+            <tr>
+                <td>
+                    <i><b>Note: All of our menu items are available for takeout</b></i>
+                    <br>
+                </td>
+            </tr>
+            <tr>
+                <th>NACHOS<h5>$4</h5></th>
+
+            </tr>
+            <tr>
+                <td>Corn tortilla chips served with hot nacho cheese
+                    (Add house-made salsa, sour cream, jalapeños or an
+                    extra basket of chips for additional charge)</td>
+            </tr>
+            <tr>
+                <th>BAKED POTATO SHELLS<h5>$6</h5></th>
+            </tr>
+            <tr>
+                <td>Filled with sautéed Italian onion sausage, Wisconsin
+                    cheddar and Parmesan cheese. Served with sour cream.
+                    <i>(Allow 15 minutes)</i></td>
+            </tr>
+            <tr>
+                <th>SAVORY ITALIAN MEATBALLS<h5>Sm. (6) $4 / Lg. (10) $7</h5></th>
+            </tr>
+            <tr>
+                <td>Topped with shredded Parmesan cheese and served with
+                    house-made pizza sauce.</td>
+            </tr>
+            <tr>
+                <th>FRESH BAKED GARLIC TOAST BASKET<h5>$3</h5></th>
+            </tr>
+            <tr>
+                <td>
+                    (Add house-made ranch dressing, spaghetti sauce
+                    or pizza sauce for an additional charge)
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <br><br><h2>TOSTADA SPECIALTIES</h2><br><br>
+                </th>
+            </tr>
+            <tr>
+                <th>BEEF OR BEAN TACO<h5>Hard Corn Tortilla $2 / Soft Flour Tortilla $3</h5></th>
+            </tr>
+            <tr>
+                <td>
+                    Hard corn or soft flour tortilla with house-made
+                    tostada beef, shredded lettuce, Wisconsin cheddar
+                    cheese, diced tomatoes and tostada hot sauce.
+                </td>
+            </tr>
+            <tr>
+                <th>BURRITO<h5>$4</h5></th>
+            </tr>
+            <tr>
+                <td>
+                    Soft flour tortilla filled with house-made
+                    refried beans, tostada beef, Wisconsin cheddar
+                    cheese, black olives and tostada hot sauce.
+                    (Add sour cream or nacho cheese for an additional
+                    charge)
+                </td>
+            </tr>
+            <tr>
+                <th>NACHO GRANDE<h5>$8</h5></th>
+            </tr>
+            <tr>
+                <td>
+                    Our delicious house-made tostado beef served
+                    over corn tortilla chips, topped with shredded
+                    cheddar cheese, lettuce, tomato and black olives.
+                    Served with a side of hot nacho cheese. (Also
+                    available with salsa or refried beans)
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="scroll-container">
+    <img src="../pics/exterior.jpg" alt="exterior">
+    <img src="../pics/taps.jpg" alt="taps">
+    <img src="../pics/beer.jpg" alt="beer">
+    <img src="../pics/nachos.jpg" alt="nachos">
+    <img src="../pics/pizza-pasta-subs.jpg" alt="pizza/pasta/subs">
+    <img src="../pics/salad.jpg" alt="salad">
+    <img src="../pics/veggie-pizza.jpg" alt="veg_pizza">
+</div>
+
+<!--    The script for the dropdown buttons - tried to move this to the js file and it broke-->
+<script>
+    document.getElementById("dropdown-btn1").onclick = function() {
+        var firstDiv = document.getElementById("firstDiv");
+        if (firstDiv.style.display === "none") {
+            firstDiv.style.display = "block";
+        } else {
+            firstDiv.style.display = "none";
+        }
+    };
+    document.getElementById("dropdown-btn2").onclick = function() {
+        var secondDiv = document.getElementById("secondDiv");
+        if (secondDiv.style.display === "none") {
+            secondDiv.style.display = "block";
+        } else {
+            secondDiv.style.display = "none";
+        }
+    };
+    document.getElementById("dropdown-btn3").onclick = function() {
+        var thirdDiv = document.getElementById("thirdDiv");
+        if (thirdDiv.style.display === "none") {
+            thirdDiv.style.display = "block";
+        } else {
+            thirdDiv.style.display = "none";
+        }
+    };
+    document.getElementById("dropdown-btn4").onclick = function() {
+        var fourthDiv = document.getElementById("fourthDiv");
+        if (fourthDiv.style.display === "none") {
+            fourthDiv.style.display = "block";
+        } else {
+            fourthDiv.style.display = "none";
+        }
+    };
+    document.getElementById("dropdown-btn5").onclick = function() {
+        var fifthDiv = document.getElementById("fifthDiv");
+        if (fifthDiv.style.display === "none") {
+            fifthDiv.style.display = "block";
+        } else {
+            fifthDiv.style.display = "none";
+        }
+    };
+
+</script>
+</body>
+
+<!--    FOOTER      -->
+<div class="footer">
+    <!--    Links to History Page, Facebook, and Instagram - FB/Instagram open in a new tab -->
+    <div class="col-1">
+        <h3>USEFUL LINKS</h3>
+        <!--        Links to History Page   -->
+        <a href="history.html">About</a>
+        <!--        Links to Contact Page-->
+        <a href="contact.html">Contact Us</a>
+        <div class="social-icons">
+            <!--            Facebook - Opens in new tab     -->
+            <a href="http://www.facebook.com/ambohoughton" target="_blank">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <!--            Instagram - Opens in a new tab  -->
+            <a href="http://instagram.com/theambassadorhoughton" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+        </div>
+    </div>
+    <!--    Rewards Program  - Not Connected to a database, this is just for show   -->
+    <div class="col-2">
+        <h3>JOIN OUR REWARDS PROGRAM</h3>
+        <form>
+            <input type="email" placeholder="Your Email Address" required>
+            <br>
+            <button type="submit">REGISTER</button>
+        </form>
+    </div>
+
+    <!--    Hours that Ambassador is open-->
+    <div class="col-3">
+        <h3>OUR HOURS</h3>
+        <p>
+            <b>Monday - Thursday</b>  11am - 10 pm <br><br>
+            <b>Friday & Saturday</b>  11am - 11pm <br><br>
+            <b>Sunday</b>  4 pm - 10 pm
+        </p>
+    </div>
+</div>
+</html>

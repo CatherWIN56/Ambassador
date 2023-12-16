@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../style/stylesheet.css"/>
+    <script src="https://kit.fontawesome.com/e74f0477d0.js" crossorigin="anonymous"></script>
+    <title>Ambassador - Take N' Bake</title>
+</head>
+
+<!--    Header - This is the same on every Page     -->
+<header>
+    <div class="nav_wrapper">
+        <!--        Top Navigation Bar that only has the logo in it     -->
+        <div class="top_nav">
+            <div class="left_nav">
+                <div class="logo"><a href="homepage.html"><p>Ambassador</p></a></div>
+            </div>
+        </div>
+        <!--        The Navigation Bar that has the page links in it    -->
+        <div class="bottom_nav">
+            <ul>
+                <li><a href="take-n-bake.html">Take N' Bake</a></li>
+                <li><a href="menu.html">Food Menu</a></li>
+                <li><a href="drinkmenu.html">Drink Menu</a> </li>
+                <li><a href="history.html">Our History</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+<body>
+<!--    Container to hold all the information   -->
+<div id="pizza-container">
+    <h1>Take N' Bake Pizza</h1>
+    <p><strong>Pizza to Go</strong></p>
+    <p>Now, you can have our great pizza right from your own oven!</p>
+<!--    Showing the two different options, upon clicking, it will pull an alert up on the page with more information-->
+    <div id="options-container">
+        <div class="option" onclick="HalfBaked()">Option 1: Half-Baked</div>
+        <div class="option" onclick="Frozen()">Option 2: Half-Baked-Frozen</div>
+    </div>
+
+    <p>(Half-Baked-Frozen requires advanced notice, call 482-5054)</p>
+    <p>The Shipping Shop can ship our pizzas to your friends and family!<br>Call them at 906-487-6167 for more information.</p>
+<!--    Instructions on how to cook the pizza   -->
+    <div id="cooking-instructions">
+        <h2>Cooking Instructions:</h2>
+        <ol>
+            <li>Thaw pizza (if frozen)</li>
+            <li>Preheat oven to 375</li>
+            <li>Place pizza directly on the oven rack</li>
+            <li>Cook 10 to 25 minutes, until center is fully cooked</li>
+        </ol>
+    </div>
+</div>
+
+<!--    The script used for the buttons that make an alert pop up   -->
+<script>
+    function HalfBaked() {
+        alert("Take home and finish later");
+        // Add your custom logic here
+    }
+    function Frozen(){
+        alert("Take home where you can keep it in your freezer");
+    }
+</script>
+</body>
+
+<!--    FOOTER      -->
+<div class="footer">
+    <!--    Links to History Page, Facebook, and Instagram - FB/Instagram open in a new tab -->
+    <div class="col-1">
+        <h3>USEFUL LINKS</h3>
+        <!--        Links to History Page   -->
+        <a href="history.html">About</a>
+        <!--        Links to Contact Page-->
+        <a href="contact.html">Contact Us</a>
+        <div class="social-icons">
+            <!--            Facebook - Opens in new tab     -->
+            <a href="http://www.facebook.com/ambohoughton" target="_blank">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <!--            Instagram - Opens in a new tab  -->
+            <a href="http://instagram.com/theambassadorhoughton" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+        </div>
+    </div>
+    <!--    Rewards Program  - Not Connected to a database, this is just for show   -->
+    <div class="col-2">
+        <h3>JOIN OUR REWARDS PROGRAM</h3>
+        <form>
+            <input type="email" placeholder="Your Email Address" required>
+            <br>
+            <button type="submit">REGISTER</button>
+        </form>
+    </div>
+
+    <!--    Hours that Ambassador is open-->
+    <div class="col-3">
+        <h3>OUR HOURS</h3>
+        <p>
+            <b>Monday - Thursday</b>  11am - 10 pm <br><br>
+            <b>Friday & Saturday</b>  11am - 11pm <br><br>
+            <b>Sunday</b>  4 pm - 10 pm
+        </p>
+    </div>
+</div>
+</html>
